@@ -1,0 +1,126 @@
+/* Header warning */
+.pichit-warning {
+	background: #ff00a8;
+	max-width: 100%;
+	padding: 20px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px #ccc;
+	width: 600px;
+	text-align: center;
+}
+.pichit-warning a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+/* Admin page */
+.activation-message {
+	width: 252px;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 5px 0;
+	color: #fff;
+	clear: both;
+}
+.pichit_admin .inputs {
+	width: 200px;
+	float: left;
+}
+.pichit_admin .inputs input {
+	margin-bottom: 15px;
+	padding: 9px;
+	margin-top: 0;
+}
+.pichit_admin .submit {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.pichit_admin .submit input {
+	padding: 46px 10px;
+	text-align: center;
+	line-height: 0px;
+	border: 0;
+	border-radius: 0;
+	background: #000;
+	margin-left: 10px;
+}
+.pichit_admin .pichit-box {
+	display: inline-block;
+	float: left;
+	padding: 20px;
+	margin-right: 20px;
+	height: 126px;
+	width: 260px;
+	text-align: center;
+}
+.pichit_admin .pichit-box h3 {
+	color: #fff;
+	font-size: 25px;
+	margin-top: 0;
+}
+.pichit_admin .pichit-box center {
+	color: #fff;
+	font-size: 80px;
+	margin-top: 44px;
+}
+
+.pichit-images .wp-media-buttons-icon:before {
+	background: url(/wp-content/plugins/pichitme-images/button-image.png) no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+
+/*  Media Frame Style  */
+.tjena {
+	display: block;
+	clear: both;
+	text-align: center;
+	background: #ff00a8;
+	padding: 5px 20px 20px 20px;
+	color: #fff !important;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 100;
+}
+.tjena img {
+	position: relative;
+	top: 7px;
+	left: -5px;
+}
+@-webkit-keyframes rotate {
+	from{
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+.spin {
+	-webkit-animation: rotate 2s linear infinite;
+}
+.temp_image {
+	position: relative;
+	top: 10px;
+	left: 10px
+}
+.pichit-search {
+	padding: 5px 10px 6px 10px;
+	background: #ff00a8;
+	margin-left: -1px;
+	color: #fff !important;
+	cursor: pointer;
+}
+.media-custom.attachments-browser .media-toolbar,
+.media-custom.attachments-browser .attachments,
+.media-custom.attachments-browser .uploader-inline {
+	right: 0 !important;
+}
+.media-custom .media-toolbar-primary {
+	float:left;
+}
+.media-custom .attachments {
+	padding: 20px 0;
+}
